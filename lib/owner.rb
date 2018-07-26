@@ -46,6 +46,6 @@ class Owner
   end
   
   def walk_dogs
-    return "happy"
+    
   end
 end
