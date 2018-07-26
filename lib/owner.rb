@@ -58,6 +58,6 @@ class Owner
   end
   
   def sell_pets
-    @pets.each { |k, v| v.each {|n| n.mood = "nervous"} }.reset_all
+    @pets.each { |k, v| v.each {|n| n.mood = "nervous"} }.clear
   end
 end
