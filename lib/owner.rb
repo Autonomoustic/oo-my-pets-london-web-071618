@@ -46,6 +46,6 @@ class Owner
   end
   
   def walk_dogs
-    @mood = "happy"
+    return @mood = "happy"
   end
 end
