@@ -58,6 +58,6 @@ class Owner
   end
   
   def sell_pets
-    @pets.each { |s, n| n.each |}
+    @pets.each { |s, n| n.each |n}
   end
 end
